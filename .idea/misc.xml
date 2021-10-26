@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.21354166666666666" />
+        <entry key="app/src/main/res/drawable/button_bg.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/button_bg_black.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/button_bg_grey.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/et_background.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/et_backgrounf.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/gradient_bg.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_right.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/ic_card.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.14087837837837838" />
+        <entry key="app/src/main/res/drawable/ic_navigation.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/ic_payment_uncheck.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/ic_rating_unselected.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/rating_bar.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/ratingbar_empty.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/ratingbar_filled.xml" value="0.162890625" />
+        <entry key="app/src/main/res/drawable/tab_bakground_selected.xml" value="0.2171875" />
+        <entry key="app/src/main/res/drawable/text_bg.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12697368421052632" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/card_list_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/casting_details_fragment.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/casting_item.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/details_fragment.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/home_fragment.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/live_fragment.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/loader_layout.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/movies_fragment.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/my_tickets_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/navigation_layout.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/payments_fragment.xml" value="0.15078125" />
+        <entry key="app/src/main/res/layout/privacy_policy_fragment.xml" value="0.1304054054054054" />
+        <entry key="app/src/main/res/layout/profile_fragment.xml" value="0.1304054054054054" />
+        <entry key="app/src/main/res/layout/recycler_header.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/recycler_list_item.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/recycler_list_item_row.xml" value="0.20104166666666667" />
+        <entry key="app/src/main/res/layout/select_quality_fragment.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/sports_fragment.xml" value="0.1859375" />
+        <entry key="app/src/main/res/layout/ticket_details_fragment.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/ticket_list_item.xml" value="0.14" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

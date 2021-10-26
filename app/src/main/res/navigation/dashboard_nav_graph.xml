@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.softradix.templis.ui.fragments.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_liveFragment2"
+            app:destination="@id/liveFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_privacyPolicyFragment"
+            app:destination="@id/privacyPolicyFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_homeFragment_to_myTicketsFragment"
+            app:destination="@id/myTicketsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.softradix.templis.ui.fragments.details.DetailsFragment"
+        android:label="details_fragment"
+        tools:layout="@layout/details_fragment">
+        <action
+            android:id="@+id/action_detailsFragment_to_selectQualityFragment"
+            app:destination="@id/selectQualityFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_detailsFragment_to_castingDetailsFragment"
+            app:destination="@id/castingDetailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/tvFragment"
+        android:name="com.softradix.templis.ui.fragments.tv.TvFragment"
+        android:label="tv_fragment"
+        tools:layout="@layout/tv_fragment" />
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.softradix.templis.ui.fragments.movies.MoviesFragment"
+        android:label="movies_fragment"
+        tools:layout="@layout/movies_fragment" />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.softradix.templis.ui.fragments.sports.SportsFragment"
+        android:label="sports_fragment"
+        tools:layout="@layout/sports_fragment" />
+    <fragment
+        android:id="@+id/paymentsFragment"
+        android:name="com.softradix.templis.ui.fragments.payment.PaymentsFragment"
+        android:label="PaymentsFragment" />
+    <fragment
+        android:id="@+id/selectQualityFragment"
+        android:name="com.softradix.templis.ui.fragments.selectQuality.SelectQualityFragment"
+        android:label="select_quality_fragment"
+        tools:layout="@layout/select_quality_fragment">
+        <action
+            android:id="@+id/action_selectQualityFragment_to_paymentsFragment"
+            app:destination="@id/paymentsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/myTicketsFragment"
+        android:name="com.softradix.templis.ui.fragments.tickets.ticketsList.MyTicketsFragment"
+        android:label="MyTicketsFragment">
+        <action
+            android:id="@+id/action_myTicketsFragment_to_ticketDetailsFragment"
+            app:destination="@id/ticketDetailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/liveFragment"
+        android:name="com.softradix.templis.ui.fragments.live.LiveFragment"
+        android:label="live_fragment"
+        tools:layout="@layout/live_fragment">
+        <action
+            android:id="@+id/action_liveFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.softradix.templis.ui.fragments.privacyPolicy.PrivacyPolicyFragment"
+        android:label="privacy_policy_fragment"
+        tools:layout="@layout/privacy_policy_fragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.softradix.templis.ui.fragments.profile.ProfileFragment"
+        android:label="profile_fragment"
+        tools:layout="@layout/profile_fragment">
+        <action
+            android:id="@+id/action_profileFragment_pop_including_homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticketDetailsFragment"
+        android:name="com.softradix.templis.ui.fragments.tickets.ticketDetails.TicketDetailsFragment"
+        android:label="ticket_details_fragment"
+        tools:layout="@layout/ticket_details_fragment" />
+    <fragment
+        android:id="@+id/castingDetailsFragment"
+        android:name="com.softradix.templis.ui.fragments.details.CastingDetailsFragment"
+        android:label="CastingDetailsFragment" >
+        <action
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            android:id="@+id/action_castingDetailsFragment_to_selectQualityFragment"
+            app:destination="@id/selectQualityFragment" />
+    </fragment>
+</navigation>
